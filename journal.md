@@ -8,8 +8,8 @@ Dépôt : [Projet3-RAG-Soutien](https://github.com/Abdem80/Projet3-RAG-Soutien)
 
 | Tâche | Responsable | État |
 |---|---|---|
-| Proposition remise dans Léa | Toute l’équipe | [à faire / fait] |
-| Dépôt GitHub créé, invitation envoyée à l’enseignant | Abdoulaye | Fait (invitations en attente d’acceptation : Sèdrick, enseignant) |
+| Proposition remise dans Léa | Toute l’équipe | Fait |
+| Dépôt GitHub créé, invitation envoyée à l’enseignant | Abdoulaye | Fait (enseignant et Catherine ont accepté ; invitation de Sèdrick en attente) |
 | Version A (script Python, Ollama, ChromaDB) | Sèdrick | À faire |
 | Version B (n8n, formulaire, webhook) | Abdoulaye | À faire |
 | Corpus (nos documents d’études), jeu de questions, BM25, script de tests | Catherine | À faire |
@@ -33,8 +33,8 @@ Dépôt : [Projet3-RAG-Soutien](https://github.com/Abdem80/Projet3-RAG-Soutien)
 ### 2026-11-10 — Utilisation d’un agent IA (Abdoulaye)
 - **Objectif :** adapter la proposition au modèle de l’enseignant et répartir le travail à trois.
 - **Apport retenu :** structure de la répartition des tâches, ajout de la version n8n et de la comparaison de modèles.
-- **Vérification :** existence du nœud Chroma de n8n vérifiée dans la documentation officielle ; proposition relue par l’équipe [à confirmer].
-- **Correction :** [s’il y a lieu].
+- **Vérification :** existence du nœud Chroma de n8n vérifiée dans la documentation officielle ; proposition relue par l’équipe.
+- **Correction :** aucune.
 
 ### 2026-11-10 — Révision de la proposition (Catherine)
 - **Résultat :** en-tête complété (noms, lien du dépôt, date), sections réorganisées, preuve d’utilité précisée (16 sur 20 et 5 sur 5), matériel du poste d’essai précisé, dates de consultation des sources ajoutées.
@@ -56,6 +56,16 @@ Dépôt : [Projet3-RAG-Soutien](https://github.com/Abdem80/Projet3-RAG-Soutien)
 - **Décision :** à la demande de l’enseignant, le corpus devient **nos propres documents d’études** (notes, énoncés, procédures, README et journaux de nos projets) au lieu d’une documentation fictive ou publique. Une RAG n’a d’intérêt que sur des documents que le modèle ne connaît pas.
 - **Conséquences :** l’utilisateur devient un étudiant en Techniques de l’informatique ; le test 3 porte maintenant sur des questions reformulées (au lieu de questions en français sur des documents en anglais) ; les documents restent en local (`corpus/` exclu du dépôt) et les informations personnelles sont retirées avant l’indexation. Architecture, comparaisons et répartition inchangées.
 - **Prochaine étape :** faire approuver la proposition révisée ; rassembler les documents ; suivre le `planning.md`.
+
+### 2026-11-25 — Suivi des accès et mise à jour du journal (Abdoulaye)
+- **Résultat :** collaborateurs vérifiés dans GitHub : l’enseignant (Nic365) et Catherine (Guilene-choco92) ont accepté l’invitation ; celle de Sèdrick (5edrickk), envoyée le 2026-11-10, est toujours en attente. Proposition confirmée comme remise dans Léa. Nom complet de Catherine corrigé dans le README.
+- **Prochaine étape :** relancer Sèdrick pour qu’il accepte l’invitation ; ajouter une trace de veille issue des notes de version (Ollama, Chroma, n8n).
+
+### 2026-11-25 — Utilisation d’un agent IA (Abdoulaye)
+- **Objectif :** relever les incohérences du dépôt et les corriger.
+- **Apport retenu :** liste des champs incomplets du README et du journal, vérification des collaborateurs et invitations par l’API GitHub.
+- **Vérification :** statuts (remise Léa, relecture, identité du compte de l’enseignant) confirmés par l’équipe avant modification.
+- **Correction :** aucune.
 
 ## Contributions par membre
 

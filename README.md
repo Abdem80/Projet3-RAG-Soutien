@@ -1,6 +1,6 @@
 # Projet 3 — Évaluation d’une RAG locale comme assistant d’études en Techniques de l’informatique
 
-Équipe : Sèdrick Zahn, Abdoulaye Dembele, Catherine [nom de famille]
+Équipe : Sèdrick Zahn, Abdoulaye Dembele, Catherine Guilene Ngo Ebga
 
 Assistant d’études local (Ollama + ChromaDB) qui répond aux questions d’un étudiant à partir de ses propres documents (notes, énoncés, procédures et README de projets) en citant ses sources, construit de deux façons (script Python et workflow n8n) et comparé à une recherche BM25 sans IA.
 
