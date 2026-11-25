@@ -1,8 +1,10 @@
-# Projet 3 — Évaluation d’une RAG locale pour le soutien informatique
+# Projet 3 — Évaluation d’une RAG locale comme assistant d’études en Techniques de l’informatique
 
 Équipe : Sèdrick Zahn, Abdoulaye Dembele, Catherine [nom de famille]
 
-Assistant documentaire local (Ollama + ChromaDB) qui répond aux questions d’un technicien de soutien en citant ses sources, construit de deux façons (script Python et workflow n8n) et comparé à une recherche BM25 sans IA.
+Assistant d’études local (Ollama + ChromaDB) qui répond aux questions d’un étudiant à partir de ses propres documents (notes, énoncés, procédures et README de projets) en citant ses sources, construit de deux façons (script Python et workflow n8n) et comparé à une recherche BM25 sans IA.
+
+> Les documents du corpus restent en local (dossier `corpus/`, exclu par le `.gitignore`). Le dépôt contient seulement leur liste, le jeu de questions et les résultats.
 
 ## Contenu du dépôt
 
@@ -12,6 +14,7 @@ Assistant documentaire local (Ollama + ChromaDB) qui répond aux questions d’u
 | `proposition-modele.md` | Modèle fourni par l’enseignant |
 | `projet3.pdf` | Énoncé du projet |
 | `journal.md` | Journal d’équipe (tâches, veille, usage d’agents IA) |
+| `planning.md` | Planning de réalisation après la révision du sujet |
 
 ## Façon de travailler
 

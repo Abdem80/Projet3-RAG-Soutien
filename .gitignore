@@ -25,3 +25,7 @@ n8n_data/
 Thumbs.db
 desktop.ini
 ~$*
+
+# Corpus de documents personnels (gardé en local, jamais publié)
+corpus/
+data/

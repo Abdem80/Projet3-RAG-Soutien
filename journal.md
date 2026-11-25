@@ -1,4 +1,4 @@
-# Journal — Projet 3 : Évaluation d’une RAG locale pour le soutien informatique
+# Journal — Projet 3 : Évaluation d’une RAG locale comme assistant d’études en Techniques de l’informatique
 
 Équipe : Sèdrick Zahn, Abdoulaye Dembele, Catherine Guilene Ngo Ebga
 
@@ -12,7 +12,9 @@ Dépôt : [Projet3-RAG-Soutien](https://github.com/Abdem80/Projet3-RAG-Soutien)
 | Dépôt GitHub créé, invitation envoyée à l’enseignant | Abdoulaye | Fait (invitations en attente d’acceptation : Sèdrick, enseignant) |
 | Version A (script Python, Ollama, ChromaDB) | Sèdrick | À faire |
 | Version B (n8n, formulaire, webhook) | Abdoulaye | À faire |
-| Corpus, jeu de questions, BM25, script de tests | Catherine | À faire |
+| Corpus (nos documents d’études), jeu de questions, BM25, script de tests | Catherine | À faire |
+| Fournir ses documents d’études pour le corpus | Toute l’équipe | À faire |
+| Faire approuver le sujet révisé | Toute l’équipe | À faire |
 | Veille (releases Ollama, Chroma, n8n) | Abdoulaye | En cours |
 
 ## Entrées
@@ -49,6 +51,11 @@ Dépôt : [Projet3-RAG-Soutien](https://github.com/Abdem80/Projet3-RAG-Soutien)
 - **Apport retenu :** `.gitignore`, README de départ, création du dépôt privé, invitation de Catherine, suivi de l’état du dépôt.
 - **Vérification :** invitations et collaborateurs vérifiés dans GitHub ; l’invitation de l’enseignant a été envoyée par Abdoulaye depuis l’interface web.
 - **Correction :** aucune.
+
+### 2026-11-25 — Révision du sujet après la rencontre avec l’enseignant (toute l’équipe)
+- **Décision :** à la demande de l’enseignant, le corpus devient **nos propres documents d’études** (notes, énoncés, procédures, README et journaux de nos projets) au lieu d’une documentation fictive ou publique. Une RAG n’a d’intérêt que sur des documents que le modèle ne connaît pas.
+- **Conséquences :** l’utilisateur devient un étudiant en Techniques de l’informatique ; le test 3 porte maintenant sur des questions reformulées (au lieu de questions en français sur des documents en anglais) ; les documents restent en local (`corpus/` exclu du dépôt) et les informations personnelles sont retirées avant l’indexation. Architecture, comparaisons et répartition inchangées.
+- **Prochaine étape :** faire approuver la proposition révisée ; rassembler les documents ; suivre le `planning.md`.
 
 ## Contributions par membre
 
