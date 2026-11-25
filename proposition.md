@@ -115,7 +115,7 @@ La trace de suivi sera consignée dans le journal : date, information, source et
 
 **Données utilisées, provenance et autorisation d’usage :**
 - **Nos productions :** notes de cours personnelles, procédures, README et journaux de nos projets précédents (projet 1 : hébergement sur une VM Azure ; projet 2 : extraction de données et CouchDB), rapports et laboratoires rédigés par les membres de l’équipe. Nous en sommes les auteurs.
-- **Documents reçus en classe :** énoncés de projets et de laboratoires, plans de cours. Ils sont utilisés seulement pour un usage personnel d’études, sur notre poste. [Autorisation de l’enseignant à confirmer.]
+- **Documents reçus en classe :** énoncés de projets et de laboratoires, plans de cours. Ils sont utilisés seulement pour un usage personnel d’études, sur notre poste. Usage autorisé par l’enseignant le 25 novembre 2026, lors de l’approbation du sujet révisé.
 - **Protection :** les documents ne sont **pas** déposés dans le dépôt GitHub. Le dossier du corpus est exclu par le `.gitignore`. Le dépôt contient seulement la liste des documents utilisés, le jeu de questions et les résultats. Avant l’indexation, nous retirons toute information personnelle (matricule, numéro de téléphone, courriel, notes obtenues).
 
 ## Tests prévus
@@ -177,8 +177,8 @@ Les tests vérifient le service IA étudié et son utilité : qualité des résu
 
 | Cours | Résultat visé | Responsable(s) |
 |---|---|---|
-| 11 | Sujet approuvé et accès prêts : proposition remise dans Léa, dépôt GitHub créé, invitation envoyée | Toute l’équipe |
-| 12 | Mise en œuvre, premier résultat et trace de veille : sujet révisé approuvé, corpus et questions figés, version A fonctionnelle, n8n installé avec un premier workflow, BM25 prêt | Version A : Sèdrick · n8n et veille : Abdoulaye · corpus et BM25 : Catherine |
+| 11 | Sujet initial approuvé et accès prêts : proposition remise dans Léa, dépôt GitHub créé, invitation envoyée | Toute l’équipe |
+| 12 | Mise en œuvre, premier résultat et trace de veille : sujet révisé approuvé (fait le 25 novembre), corpus et questions figés, version A fonctionnelle, n8n installé avec un premier workflow, BM25 prêt | Version A : Sèdrick · n8n et veille : Abdoulaye · corpus et BM25 : Catherine |
 | 13 | Tests, comparaison et première recommandation : trois tests exécutés et répétés, comparaisons, limites | Chacun pour sa partie ; analyse en équipe |
 | 14 | Démonstration et entretiens : démonstration de 10 minutes, preuves locales prêtes | Toute l’équipe |
 | 15 | Remise finale : `remise.md` dans Léa ; `rapport.md`, `README.md`, `journal.md` et tag `projet3-final` dans le dépôt | Toute l’équipe |

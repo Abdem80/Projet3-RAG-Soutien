@@ -28,4 +28,4 @@ desktop.ini
 
 # Corpus de documents personnels (gardé en local, jamais publié)
 corpus/
-data/
+/data/

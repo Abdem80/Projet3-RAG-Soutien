@@ -14,7 +14,7 @@ Dépôt : [Projet3-RAG-Soutien](https://github.com/Abdem80/Projet3-RAG-Soutien)
 | Version B (n8n, formulaire, webhook) | Abdoulaye | À faire |
 | Corpus (nos documents d’études), jeu de questions, BM25, script de tests | Catherine | À faire |
 | Fournir ses documents d’études pour le corpus | Toute l’équipe | À faire |
-| Faire approuver le sujet révisé | Toute l’équipe | À faire |
+| Faire approuver le sujet révisé | Toute l’équipe | Fait (approuvé le 2026-11-25, notes de cours autorisées) |
 | Veille (releases Ollama, Chroma, n8n) | Abdoulaye | En cours |
 
 ## Entrées
@@ -66,6 +66,11 @@ Dépôt : [Projet3-RAG-Soutien](https://github.com/Abdem80/Projet3-RAG-Soutien)
 - **Apport retenu :** liste des champs incomplets du README et du journal, vérification des collaborateurs et invitations par l’API GitHub.
 - **Vérification :** statuts (remise Léa, relecture, identité du compte de l’enseignant) confirmés par l’équipe avant modification.
 - **Correction :** aucune.
+
+### 2026-11-25 — Approbation du sujet révisé (toute l’équipe)
+- **Résultat :** l’enseignant a approuvé la révision du sujet. Il autorise l’utilisation de nos notes de cours dans le corpus.
+- **Conséquence :** la mention « autorisation à confirmer » est retirée de la proposition ; les documents restent tout de même en local et sont nettoyés de toute information personnelle avant l’indexation.
+- **Prochaine étape :** fournir les documents d’ici le 27 novembre ; suivre le `planning.md`.
 
 ## Contributions par membre
 
